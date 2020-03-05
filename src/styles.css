@@ -1,0 +1,121 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+/*BODY*/
+
+html,
+body {
+    font-size: small;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*NAVBAR*/
+
+.navbar {
+    background-color: #CCD1D1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.big-login,
+.big-register {
+    background-color: #85C1E9;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 7px;
+    border-width: 2px;
+    font-size: 12px;
+    font-style: normal;
+    padding: 5px 15px;
+    transition: all 0.3s ease 0s;
+    margin-right: 12px;
+}
+
+.big-login:hover {
+    background-color: #00A4E4;
+    color: #FFFFFF;
+}
+
+.big-register {
+    background-color: #D2B4DE;
+    border-color: #00A4E4;
+}
+
+.big-register:hover {
+    border-color: #D2B4DE;
+    color: #FFFFFF;
+    ;
+}
+
+.btn-nav {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+
+/* FOOTER */
+
+#footer {
+    background-color: #CCD1D1;
+    color: black;
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    bottom: 0px;
+    height: auto;
+    width: 100%;
+    font-size: small;
+}
+
+.textDecoration a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+}
+
+.icon.rounded {
+    background-color: #383b43;
+    border-radius: 150%;
+    color: #ffffff;
+    display: inline-block;
+    height: 2.25em;
+    line-height: 2.25em;
+    text-align: center;
+    width: 2.25em;
+}
+
+.icon.rounded.fa-facebook {
+    background-color: #39599f;
+}
+
+.icon.rounded.fa-linkedin {
+    background-color: #31516a;
+}
+
+.icon.rounded.fa-twitter {
+    background-color: #2daae4;
+}
+
+.hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    size: 30rem;
+    margin-left: 200px;
+    margin-right: 200px;
+}
